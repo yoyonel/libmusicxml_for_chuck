@@ -1,0 +1,8 @@
+(*
+  gmn code converted from '12b-Tuplets-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Finale tuplet test"> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"30/4", autoBarlines="off"> \clef<"g2"> \stemsUp c/6 d e f g a \stemsDown b c2 d e/8 f g a b/16 c3 c b2 a*3/28 g f e d c b1 \stemsUp a/12 g f e d c ]
+ }

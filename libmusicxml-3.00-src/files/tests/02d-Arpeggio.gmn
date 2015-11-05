@@ -1,0 +1,8 @@
+(*
+  gmn code converted from '02d-Arpeggio.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Arpeggios in MusicXML"> 
+   (* meas. 1 *)  \key<0> \clef<"g2"> { c, e2, g } { c1, e2, g } { c1, e2, g } { c1, e2, g } { c1, e2, g } { c1, e2, g } { c1, e2, g } ]
+ }

@@ -1,0 +1,10 @@
+(*
+  gmn code converted from '02b-Articulations-Texts-PJB.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> 
+   (* meas. 1 *)  \key<0> \meter<"4/4", autoBarlines="off"> \clef<"g2"> f/8 \bar 
+   (* meas. 2 *)  g/1 \bar 
+   (* meas. 3 *)  f ]
+ }

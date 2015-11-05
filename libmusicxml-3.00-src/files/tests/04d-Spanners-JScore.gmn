@@ -1,0 +1,11 @@
+(*
+  gmn code converted from '04d-Spanners-JScore.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"Voice 1", dx=-14hs, dy=-5hs> \systemFormat<"", dx=14hs> 
+   (* meas. 1 *)  \key<0> \meter<"6/8", autoBarlines="off"> \clef<"g2"> \tempo<tempo="[1/4] = 60"> \tempo<tempo="[1/4] = 60"> g2/8 g g g0 g g \bar 
+   (* meas. 2 *)  \key<0> \meter<"6/8", autoBarlines="off"> \clef<"g2"> \beam( g1 g g) \beam( g/12 g g) \bar 
+   (* meas. 3 *)  \key<0> \meter<"6/8", autoBarlines="off"> \clef<"g2"> \crescBegin g/8 g \crescEnd g \dimBegin g g \dimEnd g \bar 
+   (* meas. 4 *)  \key<0> \meter<"6/8", autoBarlines="off"> \clef<"g2"> \tieBegin g \tieBegin g \tieEnd g \tieEnd \slurBegin:1 g g g \slurEnd:1 ]
+ }

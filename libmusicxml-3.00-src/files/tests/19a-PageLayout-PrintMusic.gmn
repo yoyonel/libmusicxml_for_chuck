@@ -1,0 +1,10 @@
+(*
+  gmn code converted from '19a-PageLayout-PrintMusic.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Layout options"> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> _/1 \bar 
+   (* meas. 2 *)  _ \bar 
+   (* meas. 3 *)  _ ]
+ }

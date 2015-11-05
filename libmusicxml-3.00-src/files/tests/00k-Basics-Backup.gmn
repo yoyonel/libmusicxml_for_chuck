@@ -1,0 +1,10 @@
+(*
+  gmn code converted from '00k-Basics-Backup.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Backup not to 0 in second voice"> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> c c empty ]
+, [ \staff<1> 
+   (* meas. 1 *)  empty a0 a ]
+ }

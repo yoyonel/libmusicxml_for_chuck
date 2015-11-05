@@ -1,0 +1,26 @@
+(*
+  gmn code converted from '00f-Basics-Clefs.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Finale Clef test"> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> c/1 \bar 
+   (* meas. 2 *)  \clef<"c3"> c \bar 
+   (* meas. 3 *)  \clef<"c4"> c \bar 
+   (* meas. 4 *)  \clef<"f4"> c \bar 
+   (* meas. 5 *)  \clef<"perc"> c \bar 
+   (* meas. 6 *)  \clef<"g2-8"> c \bar 
+   (* meas. 7 *)  \clef<"f4-8"> c \bar 
+   (* meas. 8 *)  \clef<"f3"> c \bar 
+   (* meas. 9 *)  \clef<"g1"> c \bar 
+   (* meas. 10 *)  \clef<"c5"> c \bar 
+   (* meas. 11 *)  \clef<"c2"> c \bar 
+   (* meas. 12 *)  \clef<"c1"> c \bar 
+   (* meas. 13 *)  \clef<"perc"> c \bar 
+   (* meas. 14 *)  \clef<"g2+8"> c \bar 
+   (* meas. 15 *)  \clef<"f4+8"> c \bar 
+   (* meas. 16 *)  \clef<"TAB5"> c \bar 
+   (* meas. 17 *)  \clef<"TAB5"> c \bar 
+   (* meas. 18 *)  \clef<"none"> c \bar 
+   (* meas. 19 *)  \clef<"g2"> c ]
+ }

@@ -1,0 +1,13 @@
+(*
+  gmn code converted from '00c-Basics-Durations.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Note durations"> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"16/4", autoBarlines="off"> \clef<"g2"> c2*4/1 \bar 
+   (* meas. 2 *)  c*2/1 c/1 \stemsDown c/2 c/4 \beam( c/8 c/16 c/32 c/64 c/128 c) \bar 
+   (* meas. 3 *)  \meter<"24/4", autoBarlines="off"> \stemsAuto c*6/1. \bar 
+   (* meas. 4 *)  c*3/1. c/1. c/2. \stemsDown c/4. \beam( c/8. c/16. c/32. \stemsAuto c/64. c/128. c.) \bar 
+   (* meas. 5 *)  \meter<"28/4", autoBarlines="off"> c*7/1.. \bar 
+   (* meas. 6 *)  c*7/2.. c/1.. c/2.. c/4.. \beam( c/8.. c/16.. c/32.. c/64.. c..) ]
+ }

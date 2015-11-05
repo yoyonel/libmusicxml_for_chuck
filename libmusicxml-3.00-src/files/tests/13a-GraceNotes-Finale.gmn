@@ -1,0 +1,10 @@
+(*
+  gmn code converted from '13a-GraceNotes-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Grace note test"> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsUp \grace( d2/16 \stemsDown) c/4 \stemsUp \grace( \beam( e/16 d) \stemsDown) c/4 \stemsUp \grace( \tieBegin d/16 \stemsDown) c/4 \stemsUp \grace( d/8 \stemsDown) c/4 \bar 
+   (* meas. 2 *)  \stemsUp \grace( d/16 \stemsDown) c/4 \stemsUp \grace( \beam( e/16 d) \stemsDown) c/4 \stemsUp \grace( d/16 \stemsDown) c/4 \stemsUp \grace( d/16 \stemsDown) c/4 \stemsUp \grace( e/16) \bar 
+   (* meas. 3 *)  \grace( e) { f1/4, c2 } \grace( d# \stemsDown) c \stemsUp \grace( d& a&1 \stemsDown) c2 c ]
+ }

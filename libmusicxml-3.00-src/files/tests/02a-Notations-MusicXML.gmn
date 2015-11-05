@@ -1,0 +1,30 @@
+(*
+  gmn code converted from '02a-Notations-MusicXML.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"MusicXML notations (attached to note)"> 
+   (* meas. 1 *)  \key<0> \clef<"g2"> \fermata( c2) \fermata( c) \fermata( c) \fermata( c) \bar 
+   (* meas. 2 *)  \fermata( c) { c, e, g } { c, e, g } c \bar 
+   (* meas. 3 *)  \accent( c) \marcato( c) \stacc( c) \ten( c) \bar 
+   (* meas. 4 *)  c c c c \bar 
+   (* meas. 5 *)  c c c c \breathMark \bar 
+   (* meas. 6 *)  c c c _ \bar 
+   (* meas. 7 *)  c c c c \bar 
+   (* meas. 8 *)  c c c c \bar 
+   (* meas. 9 *)  c c c c \bar 
+   (* meas. 10 *)  c c _/2 \bar 
+   (* meas. 11 *)  c/4 c c c \bar 
+   (* meas. 12 *)  c c c c \bar 
+   (* meas. 13 *)  c c c c \bar 
+   (* meas. 14 *)  c c c c \bar 
+   (* meas. 15 *)  c c c c \bar 
+   (* meas. 16 *)  c c c c \bar 
+   (* meas. 17 *)  c c c c \bar 
+   (* meas. 18 *)  c c c c \bar 
+   (* meas. 19 *)  c c c c \bar 
+   (* meas. 20 *)  c c c c \bar 
+   (* meas. 21 *)  c _ _/2 \bar 
+   (* meas. 22 *)  \intens<"f"> c/4 \intens<"ppp"> c \intens<"sfp"> c c \bar 
+   (* meas. 23 *)  \marcato( \stacc( g1)) \accent( \stacc( \ten( g))) _/2 ]
+ }

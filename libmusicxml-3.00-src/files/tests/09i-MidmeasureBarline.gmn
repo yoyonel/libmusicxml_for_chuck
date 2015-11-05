@@ -1,0 +1,8 @@
+(*
+  gmn code converted from '09i-MidmeasureBarline.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \composer<"", dy=4hs> 
+   (* meas. 1 *)  c2 a1 \bar f c2 ]
+ }

@@ -1,0 +1,8 @@
+(*
+  gmn code converted from '13b-ChordAsGraceNote-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Chord as a grace note"> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsDown c2 \stemsUp \grace( { d/8, f } \stemsDown) c/4 \stemsUp \grace( { b1/8, d2 } \stemsDown) { a1/4, c2 } ]
+ }

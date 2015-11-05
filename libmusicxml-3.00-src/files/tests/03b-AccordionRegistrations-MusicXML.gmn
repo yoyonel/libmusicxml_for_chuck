@@ -1,0 +1,12 @@
+(*
+  gmn code converted from '03b-AccordionRegistrations-MusicXML.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Accordion registrations"> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> c c c c \bar 
+   (* meas. 2 *)  c c c c \bar 
+   (* meas. 3 *)  c c c c \bar 
+   (* meas. 4 *)  c c c c \bar 
+   (* meas. 5 *)  c c c c ]
+ }

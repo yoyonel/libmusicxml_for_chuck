@@ -1,0 +1,10 @@
+(*
+  gmn code converted from '09j-Midmeasure-Clef-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Mid-measure clef-change"> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> _/1 \bar 
+   (* meas. 2 *)  \stemsDown c2/4 c 
+   (* meas. 3 *)  \clef<"c2"> c c ]
+ }

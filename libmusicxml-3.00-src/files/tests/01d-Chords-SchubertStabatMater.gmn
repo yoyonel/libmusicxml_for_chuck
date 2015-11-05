@@ -1,0 +1,9 @@
+(*
+  gmn code converted from '01d-Chords-SchubertStabatMater.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \instr<"Chord test", dx=-20hs, dy=-5hs> \systemFormat<"", dx=20hs> 
+   (* meas. 1 *)  \key<-4> \meter<"C", autoBarlines="off"> \clef<"g2"> \intens<"fp"> \fermata( \accent( f/1)) \bar 
+   (* meas. 2 *)  \intens<"p"> \stemsUp { f/4., a&. } { f/8, a& } { g/4, b& } { g, b& } ]
+ }

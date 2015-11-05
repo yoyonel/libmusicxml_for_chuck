@@ -1,0 +1,26 @@
+(*
+  gmn code converted from '08d-NestedPartsBrackets-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Part test"> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> b/1 \bar 
+   (* meas. 2 *)  a \bar 
+   (* meas. 3 *)  _ ]
+, [ \staff<2> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> a/1 \bar 
+   (* meas. 2 *)  a \bar 
+   (* meas. 3 *)  _ ]
+, [ \staff<3> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> a/1 \bar 
+   (* meas. 2 *)  a \bar 
+   (* meas. 3 *)  _ ]
+, [ \staff<4> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> f/1 \bar 
+   (* meas. 2 *)  b \bar 
+   (* meas. 3 *)  _ ]
+, [ \staff<5> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> d2/1 \bar 
+   (* meas. 2 *)  f1 \bar 
+   (* meas. 3 *)  _ ]
+ }

@@ -1,0 +1,9 @@
+(*
+  gmn code converted from '06d-Lyrics-Melisma-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Lyrics and melismata (ignore them)"> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsDown \slurBegin:1 c2 { a1, e2 } c { c, e } \slurEnd:1 \bar 
+   (* meas. 2 *)  \tieBegin c c \tieEnd \slurBegin:1 c e \slurEnd:1 ]
+ }

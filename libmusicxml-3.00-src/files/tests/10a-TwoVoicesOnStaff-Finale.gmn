@@ -1,0 +1,14 @@
+(*
+  gmn code converted from '10a-TwoVoicesOnStaff-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Two Voices share one Staff"> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsUp \fermata( \accent( e2/2)) \intens<"mf"> d/4 b1 \bar 
+   (* meas. 2 *)  _ d2 \slurBegin:1 b0/4. c2/8 \slurEnd:1 \bar 
+   (* meas. 3 *)  _/1 ]
+, [ \staff<1> 
+   (* meas. 1 *)  \stemsDown \fermata( \accent( c2/2)) b1/4 g \bar 
+   (* meas. 2 *)  _ b \slurBegin:1 g0/4. a1/8 \slurEnd:1 \bar 
+   (* meas. 3 *)  empty/1 ]
+ }

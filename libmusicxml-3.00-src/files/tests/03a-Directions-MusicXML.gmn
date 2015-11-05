@@ -1,0 +1,21 @@
+(*
+  gmn code converted from '03a-Directions-MusicXML.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"MusicXML directions (attached to staff)"> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> c c c c \bar 
+   (* meas. 2 *)  \segno c \coda c c c \bar 
+   (* meas. 3 *)  \intens<"p"> c \intens<"pp"> c \intens<"ppp"> c \intens<"pppp"> c \bar 
+   (* meas. 4 *)  \intens<"ppppp"> c \intens<"pppppp"> c \intens<"f"> c \intens<"ff"> c \bar 
+   (* meas. 5 *)  \intens<"fff"> c \intens<"ffff"> c \intens<"fffff"> c \intens<"ffffff"> c \bar 
+   (* meas. 6 *)  \intens<"mp"> c \intens<"mf"> c \intens<"sf"> c \intens<"sfp"> c \bar 
+   (* meas. 7 *)  \intens<"sfpp"> c \intens<"fp"> c \intens<"rf"> c \intens<"rfz"> c \bar 
+   (* meas. 8 *)  \intens<"sfz"> c \intens<"sffz"> c \intens<"fz"> c c \bar 
+   (* meas. 9 *)  \crescBegin c \crescEnd c c c \bar 
+   (* meas. 10 *)  c c c c \bar 
+   (* meas. 11 *)  c c c c \bar 
+   (* meas. 12 *)  \tempo<tempo="[1/4] = 60"> c c c c \bar 
+   (* meas. 13 *)  c c _/2 \bar 
+   (* meas. 14 *)  \intens<"p"> c/4 \intens<"ppp"> \crescBegin c \crescEnd \intens<"fff"> c _ ]
+ }

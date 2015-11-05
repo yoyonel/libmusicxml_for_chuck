@@ -1,0 +1,14 @@
+(*
+  gmn code converted from '08a-Partorder-Rosegarden.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \instr<"Part 1", dx=-12hs, dy=-5hs> \systemFormat<"", dx=12hs> 
+   (* meas. 1 *)  \meter<"4/4", autoBarlines="off"> \clef<"g2"> \key<1> c _ _/2 ]
+, [ \staff<2> \instr<"Part 2", dx=-12hs, dy=-5hs> \systemFormat<"", dx=12hs> 
+   (* meas. 1 *)  \meter<"4/4", autoBarlines="off"> \clef<"g2"> \key<1> e _ _/2 ]
+, [ \staff<3> \instr<"Part 3", dx=-12hs, dy=-5hs> \systemFormat<"", dx=12hs> 
+   (* meas. 1 *)  \meter<"4/4", autoBarlines="off"> \clef<"g2"> \key<1> g _ _/2 ]
+, [ \staff<4> \instr<"Part 4", dx=-12hs, dy=-5hs> \systemFormat<"", dx=12hs> 
+   (* meas. 1 *)  \meter<"4/4", autoBarlines="off"> \clef<"g2"> \key<1> b _ _/2 ]
+ }

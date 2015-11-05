@@ -1,0 +1,10 @@
+(*
+  gmn code converted from '12a-TripletsDuration-NoBracket-PJB.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \instr<"MIDI Track 1", dx=-24hs, dy=-5hs> \systemFormat<"", dx=24hs> 
+   (* meas. 1 *)  \key<0> \meter<"4/4", autoBarlines="off"> \clef<"g2"> f g a/6 b c2 ]
+, [ \staff<2> 
+   (* meas. 1 *)  \key<0> \meter<"4/4", autoBarlines="off"> \clef<"f4"> \beam( a-1/8 b) \beam( c0/12 d e) \beam( a-1/16 b c0 d) \beam( e/24 f g a b c1) ]
+ }

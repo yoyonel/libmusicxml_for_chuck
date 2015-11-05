@@ -1,0 +1,10 @@
+(*
+  gmn code converted from '00j-Basics-NoTime-PJB.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> 
+   (* meas. 1 *)  \key<0> \clef<"g2"> f/1 ]
+, [ \staff<2> 
+   (* meas. 1 *)  \key<0> \clef<"f4"> b-1/1 ]
+ }

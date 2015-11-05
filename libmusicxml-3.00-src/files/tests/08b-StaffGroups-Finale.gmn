@@ -1,0 +1,66 @@
+(*
+  gmn code converted from '08b-StaffGroups-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Bar/Staff test"> \composer<"R.K.", dy=4hs> \instr<"Piccolo", dx=-14hs, dy=-5hs> \systemFormat<"", dx=14hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsDown b _ _/2 ]
+, [ \staff<2> \instr<"Flute 1", dx=-14hs, dy=-5hs> \systemFormat<"", dx=14hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsUp f _ _/2 ]
+, [ \staff<3> \instr<"Flute 2", dx=-14hs, dy=-5hs> \systemFormat<"", dx=14hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsUp a _ _/2 ]
+, [ \staff<4> \instr<"Oboe", dx=-8hs, dy=-5hs> \systemFormat<"", dx=8hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsDown e2 _ _/2 ]
+, [ \staff<5> \instr<"English Horn", dx=-24hs, dy=-5hs> \systemFormat<"", dx=24hs> 
+   (* meas. 1 *)  \key<1> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsDown c2 _ _/2 ]
+, [ \staff<6> \instr<"Clarinet in Eb", dx=-28hs, dy=-5hs> \systemFormat<"", dx=28hs> 
+   (* meas. 1 *)  \key<3> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsDown b _ _/2 ]
+, [ \staff<7> \instr<"Clarinet in Bb 1", dx=-32hs, dy=-5hs> \systemFormat<"", dx=32hs> 
+   (* meas. 1 *)  \key<2> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsUp f# _ _/2 ]
+, [ \staff<8> \instr<"Clarinet in Bb 2", dx=-32hs, dy=-5hs> \systemFormat<"", dx=32hs> 
+   (* meas. 1 *)  \key<2> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsDown c#2 _ _/2 ]
+, [ \staff<9> \instr<"Bass Clarinet", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<2> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsDown b _ _/2 ]
+, [ \staff<10> \instr<"Bassoon 1", dx=-18hs, dy=-5hs> \systemFormat<"", dx=18hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsDown d0 _ _/2 ]
+, [ \staff<11> \instr<"Bassoon 2", dx=-18hs, dy=-5hs> \systemFormat<"", dx=18hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsDown e0 _ _/2 ]
+, [ \staff<12> \instr<"Contrabassoon", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsUp b-1 _ _/2 ]
+, [ \staff<13> \instr<"Horn in F 1", dx=-22hs, dy=-5hs> \systemFormat<"", dx=22hs> 
+   (* meas. 1 *)  \key<1> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsDown e2 _ _/2 ]
+, [ \staff<14> \instr<"Horn in F 2", dx=-22hs, dy=-5hs> \systemFormat<"", dx=22hs> 
+   (* meas. 1 *)  \key<1> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsUp g _ _/2 ]
+, [ \staff<15> \instr<"Trumpet in C 1", dx=-28hs, dy=-5hs> \systemFormat<"", dx=28hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsUp f _ _/2 ]
+, [ \staff<16> \instr<"Trumpet in C 2", dx=-28hs, dy=-5hs> \systemFormat<"", dx=28hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsUp a _ _/2 ]
+, [ \staff<17> \instr<"Trombone 1", dx=-20hs, dy=-5hs> \systemFormat<"", dx=20hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsUp b-1 _ _/2 ]
+, [ \staff<18> \instr<"Trombone 2", dx=-20hs, dy=-5hs> \systemFormat<"", dx=20hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsDown e0 _ _/2 ]
+, [ \staff<19> \instr<"Tuba", dx=-8hs, dy=-5hs> \systemFormat<"", dx=8hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsDown e0 _ _/2 ]
+, [ \staff<20> \instr<"Timpani", dx=-14hs, dy=-5hs> \systemFormat<"", dx=14hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsDown f0 _ _/2 ]
+, [ \staff<21> \instr<"Percussion", dx=-20hs, dy=-5hs> \systemFormat<"", dx=20hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"perc"> \stemsDown e2 _ _/2 ]
+, [ \staff<22> \instr<"Harp", dx=-8hs, dy=-5hs> \systemFormat<"", dx=8hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsDown d2 _ _/2 ]
+, [ \staff<23> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsUp a-1 _ _/2 ]
+, [ \staff<24> \instr<"Piano", dx=-10hs, dy=-5hs> \systemFormat<"", dx=10hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsUp g _ _/2 ]
+, [ \staff<25> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsDown e0 _ _/2 ]
+, [ \staff<26> \instr<"Violin I", dx=-16hs, dy=-5hs> \systemFormat<"", dx=16hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsDown e2 _ _/2 ]
+, [ \staff<27> \instr<"Violin II", dx=-18hs, dy=-5hs> \systemFormat<"", dx=18hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsUp f _ _/2 ]
+, [ \staff<28> \instr<"Viola", dx=-10hs, dy=-5hs> \systemFormat<"", dx=10hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"c3"> \stemsDown c _ _/2 ]
+, [ \staff<29> \instr<"Cello", dx=-10hs, dy=-5hs> \systemFormat<"", dx=10hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsUp c0 _ _/2 ]
+, [ \staff<30> \instr<"Contrabass", dx=-20hs, dy=-5hs> \systemFormat<"", dx=20hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsUp c0 _ _/2 ]
+ }

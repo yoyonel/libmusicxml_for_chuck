@@ -1,0 +1,11 @@
+(*
+  gmn code converted from '04c-Spanners-Noteedit.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \instr<"Staff 1", dx=-14hs, dy=-5hs> \systemFormat<"", dx=14hs> 
+   (* meas. 1 *)  \key<-1> \meter<"4/4", autoBarlines="off"> \clef<"g2"> \crescBegin \stemsUp g g \crescEnd \dimBegin g g \dimEnd \bar 
+   (* meas. 2 *)  g g g g \bar 
+   (* meas. 3 *)  g g g g \bar 
+   (* meas. 4 *)  g2 g g g ]
+ }

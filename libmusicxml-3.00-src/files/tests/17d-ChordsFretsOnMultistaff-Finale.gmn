@@ -1,0 +1,18 @@
+(*
+  gmn code converted from '17d-ChordsFretsOnMultistaff-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Chords and fretboards on multi-staff, multi-voice piece"> \instr<"Piano", dx=-10hs, dy=-5hs> \systemFormat<"", dx=10hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsUp d2 d d d \bar 
+   (* meas. 2 *)  d d d d ]
+, [ \staff<1> 
+   (* meas. 1 *)  \stemsDown f f f f \bar 
+   (* meas. 2 *)  f f f f ]
+, [ \staff<2> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsUp d0 d d d \bar 
+   (* meas. 2 *)  d d d d ]
+, [ \staff<2> 
+   (* meas. 1 *)  \stemsDown b-1 b b b \bar 
+   (* meas. 2 *)  b b b b ]
+ }

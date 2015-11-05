@@ -1,0 +1,12 @@
+(*
+  gmn code converted from '14c-StaffChange-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Staff change in piano staff"> \composer<"The voice from the second staff has some notes/chords on the first staff", dy=4hs> \instr<"Piano", dx=-10hs, dy=-5hs> \systemFormat<"", dx=10hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> _/1 \bar 
+   (* meas. 2 *)  _ ]
+, [ \staff<2> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsDown \beam( a0/8 \staff<1> e1 \staff<2> a0 \staff<1> e1) \beam( c2 e1 \staff<2> a0 b1) \bar 
+   (* meas. 2 *)  \stemsUp \beam( { c0, e, g, c1 } \staff<1> { c, e, g } \staff<2> { c0, e, g \staff<1>, c1 } \staff<2> { g0 \staff<1>, c1, e, g }) \staff<2> _/2 ]
+ }

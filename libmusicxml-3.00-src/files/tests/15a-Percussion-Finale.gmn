@@ -1,0 +1,15 @@
+(*
+  gmn code converted from '15a-Percussion-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Percussion Staves"> \instr<"Timpani", dx=-14hs, dy=-5hs> \systemFormat<"", dx=14hs> 
+   (* meas. 1 *)  \key<0> \meter<"4/4", autoBarlines="off"> \clef<"f4"> \tieBegin e0/1 \bar 
+   (* meas. 2 *)  e \tieEnd ]
+, [ \staff<2> \instr<"Cymbals", dx=-14hs, dy=-5hs> \systemFormat<"", dx=14hs> 
+   (* meas. 1 *)  \key<0> \meter<"4/4", autoBarlines="off"> \clef<"perc"> e2/2. e/4 \bar 
+   (* meas. 2 *)  d/1 ]
+, [ \staff<3> \instr<"Triangle", dx=-16hs, dy=-5hs> \systemFormat<"", dx=16hs> 
+   (* meas. 1 *)  \meter<"4/4", autoBarlines="off"> \clef<"perc"> f/2. f/4 \bar 
+   (* meas. 2 *)  e/1 ]
+ }

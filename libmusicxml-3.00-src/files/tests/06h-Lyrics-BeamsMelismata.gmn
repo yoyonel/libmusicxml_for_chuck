@@ -1,0 +1,11 @@
+(*
+  gmn code converted from '06h-Lyrics-BeamsMelismata.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Lyrics and melismata"> 
+   (* meas. 1 *)  \beam( c2/8 a1 c2) a1 \beam( c2 g1 b) _ \bar 
+   (* meas. 2 *)  c2 a1 c2 a1 c2 g1 b _ \bar 
+   (* meas. 3 *)  \slurBegin:1 c2 a1 c2 \slurEnd:1 a1 \slurBegin:1 c2 g1 b \slurEnd:1 _ \bar 
+   (* meas. 4 *)  \slurBegin:1 c2 a1 c2 a1 c2 g1 b \slurEnd:1 _ ]
+ }

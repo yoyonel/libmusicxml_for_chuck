@@ -1,0 +1,38 @@
+(*
+  gmn code converted from '00l-Basics-MultiMeasureRests.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Multi-Measure rests"> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> _/1 \bar 
+   (* meas. 2 *)  _ \bar 
+   (* meas. 3 *)  _ \bar 
+   (* meas. 4 *)  _ \bar 
+   (* meas. 5 *)  _ \bar 
+   (* meas. 6 *)  _ \bar 
+   (* meas. 7 *)  _ \bar 
+   (* meas. 8 *)  _ \bar 
+   (* meas. 9 *)  _ \bar 
+   (* meas. 10 *)  _ \bar 
+   (* meas. 11 *)  _ \bar 
+   (* meas. 12 *)  _ \bar 
+   (* meas. 13 *)  _ \bar 
+   (* meas. 14 *)  _ \bar 
+   (* meas. 15 *)  _ \bar 
+   (* meas. 16 *)  _ \bar 
+   (* meas. 17 *)  _ \bar 
+   (* meas. 18 *)  _ \bar 
+   (* meas. 19 *)  _ \bar 
+   (* meas. 20 *)  _ \bar 
+   (* meas. 21 *)  _ \bar 
+   (* meas. 22 *)  _ \bar 
+   (* meas. 23 *)  _ \bar 
+   (* meas. 24 *)  _ \bar 
+   (* meas. 25 *)  _ \bar 
+   (* meas. 26 *)  _ \bar 
+   (* meas. 27 *)  _ \bar 
+   (* meas. 28 *)  _ \bar 
+   (* meas. 29 *)  _ \bar 
+   (* meas. 30 *)  _ \bar 
+   (* meas. 31 *)  _ ]
+ }

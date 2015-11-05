@@ -1,0 +1,12 @@
+(*
+  gmn code converted from '06c-Lyrics-Pianostaff-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Lyrics test with Piano Staff"> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"Piano", dx=-10hs, dy=-5hs> \systemFormat<"", dx=10hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsUp a a a a \bar 
+   (* meas. 2 *)  a a a a ]
+, [ \staff<2> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \stemsDown f0 f f f \bar 
+   (* meas. 2 *)  f f f f ]
+ }

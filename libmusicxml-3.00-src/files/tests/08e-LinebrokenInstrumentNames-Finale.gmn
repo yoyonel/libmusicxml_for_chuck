@@ -1,0 +1,32 @@
+(*
+  gmn code converted from '08e-LinebrokenInstrumentNames-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Score with multi-line instrument names"> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"Long&#xd;
+Staff&#xd;
+Name", dx=-50hs, dy=-5hs> \systemFormat<"", dx=50hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> b/1 \bar 
+   (* meas. 2 *)  b \bar 
+   (* meas. 3 *)  b \bar 
+   (* meas. 4 *)  b \bar 
+   (* meas. 5 *)  b \bar 
+   (* meas. 6 *)  b \bar 
+   (* meas. 7 *)  b \bar 
+   (* meas. 8 *)  b \bar 
+   (* meas. 9 *)  b \bar 
+   (* meas. 10 *)  b \bar 
+   (* meas. 11 *)  b \bar 
+   (* meas. 12 *)  b \bar 
+   (* meas. 13 *)  b \bar 
+   (* meas. 14 *)  b \bar 
+   (* meas. 15 *)  b \bar 
+   (* meas. 16 *)  b \bar 
+   (* meas. 17 *)  b \bar 
+   (* meas. 18 *)  b \bar 
+   (* meas. 19 *)  b \bar 
+   (* meas. 20 *)  b \bar 
+   (* meas. 21 *)  b \bar 
+   (* meas. 22 *)  b \bar 
+   (* meas. 23 *)  _ ]
+ }

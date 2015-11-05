@@ -1,0 +1,53 @@
+(*
+  gmn code converted from '00g-Basics-Keys.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Different Key signatures"> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \meter<"2/4", autoBarlines="off"> \clef<"g2"> \key<-11> c/2 \bar 
+   (* meas. 2 *)  \key<-11> c \bar 
+   (* meas. 3 *)  \key<-10> c \bar 
+   (* meas. 4 *)  \key<-10> c \bar 
+   (* meas. 5 *)  \key<-9> c \bar 
+   (* meas. 6 *)  \key<-9> c \bar 
+   (* meas. 7 *)  \key<-8> c \bar 
+   (* meas. 8 *)  \key<-8> c \bar 
+   (* meas. 9 *)  \key<-7> c \bar 
+   (* meas. 10 *)  \key<-7> c \bar 
+   (* meas. 11 *)  \key<-6> c \bar 
+   (* meas. 12 *)  \key<-6> c \bar 
+   (* meas. 13 *)  \key<-5> c \bar 
+   (* meas. 14 *)  \key<-5> c \bar 
+   (* meas. 15 *)  \key<-4> c \bar 
+   (* meas. 16 *)  \key<-4> c \bar 
+   (* meas. 17 *)  \key<-3> c \bar 
+   (* meas. 18 *)  \key<-3> c \bar 
+   (* meas. 19 *)  \key<-2> c \bar 
+   (* meas. 20 *)  \key<-2> c \bar 
+   (* meas. 21 *)  \key<-1> c \bar 
+   (* meas. 22 *)  \key<-1> c \bar 
+   (* meas. 23 *)  \key<0> c \bar 
+   (* meas. 24 *)  \key<0> c \bar 
+   (* meas. 25 *)  \key<1> c \bar 
+   (* meas. 26 *)  \key<1> c \bar 
+   (* meas. 27 *)  \key<2> c \bar 
+   (* meas. 28 *)  \key<2> c \bar 
+   (* meas. 29 *)  \key<3> c \bar 
+   (* meas. 30 *)  \key<3> c \bar 
+   (* meas. 31 *)  \key<4> c \bar 
+   (* meas. 32 *)  \key<4> c \bar 
+   (* meas. 33 *)  \key<5> c \bar 
+   (* meas. 34 *)  \key<5> c \bar 
+   (* meas. 35 *)  \key<6> c \bar 
+   (* meas. 36 *)  \key<6> c \bar 
+   (* meas. 37 *)  \key<7> c \bar 
+   (* meas. 38 *)  \key<7> c \bar 
+   (* meas. 39 *)  \key<8> c \bar 
+   (* meas. 40 *)  \key<8> c \bar 
+   (* meas. 41 *)  \key<9> c \bar 
+   (* meas. 42 *)  \key<9> c \bar 
+   (* meas. 43 *)  \key<10> c \bar 
+   (* meas. 44 *)  \key<10> c \bar 
+   (* meas. 45 *)  \key<11> c \bar 
+   (* meas. 46 *)  \key<11> c ]
+ }

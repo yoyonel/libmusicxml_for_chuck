@@ -1,0 +1,12 @@
+(*
+  gmn code converted from '04b-Glissando.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Glissando and Slide in MusicXML"> 
+   (* meas. 1 *)  \key<0> \clef<"g2"> \stemsDown g f2 g1 f2 \bar 
+   (* meas. 2 *)  g1 f2 g1 f2 \bar 
+   (* meas. 3 *)  g1 f2 g1 f2 \bar 
+   (* meas. 4 *)  g1 f2 g1 f2 \bar 
+   (* meas. 5 *)  g1 f2 g1 f2 ]
+ }

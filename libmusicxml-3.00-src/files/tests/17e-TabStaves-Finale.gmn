@@ -1,0 +1,38 @@
+(*
+  gmn code converted from '17e-TabStaves-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Tablatures"> \instr<"Guitar", dx=-12hs, dy=-5hs> \systemFormat<"", dx=12hs> 
+   (* meas. 1 *)  \key<0> \clef<"TAB5"> \stemsOff g0 e2 c1 e0 \bar 
+   (* meas. 2 *)  { g#-1, f#0, g } d g# e1 \bar 
+   (* meas. 3 *)  _/1 ]
+, [ \staff<2> \instr<"Guitar", dx=-12hs, dy=-5hs> \systemFormat<"", dx=12hs> 
+   (* meas. 1 *)  \key<0> \clef<"TAB5"> \stemsUp d# g#0 c _ \bar 
+   (* meas. 2 *)  f#1 g0 g f#-1 \bar 
+   (* meas. 3 *)  _/1 ]
+, [ \staff<3> \instr<"Guitar", dx=-12hs, dy=-5hs> \systemFormat<"", dx=12hs> 
+   (* meas. 1 *)  \key<0> \clef<"TAB5"> \stemsOff a#0 b-1/8 a0 _/2 \bar 
+   (* meas. 2 *)  g#1/4 d g#-1 d0 \bar 
+   (* meas. 3 *)  _/1 ]
+, [ \staff<4> \instr<"Guitar", dx=-12hs, dy=-5hs> \systemFormat<"", dx=12hs> 
+   (* meas. 1 *)  \key<0> \clef<"TAB5"> \stemsOff b0/8 { d-1, d, g, a, a } _/4 _/2 \bar 
+   (* meas. 2 *)  d1/4 d0 a-1 d \bar 
+   (* meas. 3 *)  _/1 ]
+, [ \staff<5> \instr<"Bass Guitar", dx=-22hs, dy=-5hs> \systemFormat<"", dx=22hs> 
+   (* meas. 1 *)  \key<0> \clef<"TAB5"> \stemsOff g-1 e-2 d-1 a# \bar 
+   (* meas. 2 *)  a-2 a a a \bar 
+   (* meas. 3 *)  _/1 ]
+, [ \staff<6> \instr<"Banjo", dx=-10hs, dy=-5hs> \systemFormat<"", dx=10hs> 
+   (* meas. 1 *)  \key<0> \clef<"TAB5"> \stemsUp d# d0 d1 _ \bar 
+   (* meas. 2 *)  g0 g1 g g \bar 
+   (* meas. 3 *)  _/1 ]
+, [ \staff<7> \instr<"Lute", dx=-8hs, dy=-5hs> \systemFormat<"", dx=8hs> 
+   (* meas. 1 *)  \key<0> \clef<"TAB5"> \stemsUp c# c#0 a1 e \bar 
+   (* meas. 2 *)  d f0 g-1 c0 \bar 
+   (* meas. 3 *)  _/1 ]
+, [ \staff<8> \instr<"Ukulele", dx=-14hs, dy=-5hs> \systemFormat<"", dx=14hs> 
+   (* meas. 1 *)  \key<0> \clef<"TAB5"> \stemsUp e3 b1 c e \bar 
+   (* meas. 2 *)  c c c c \bar 
+   (* meas. 3 *)  _/1 ]
+ }

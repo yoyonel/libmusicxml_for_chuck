@@ -1,0 +1,17 @@
+(*
+  gmn code converted from '04a-Spanners-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Spanners Test"> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \stemsDown b/6 b b \slurBegin:1 b/4 b \bar 
+   (* meas. 2 *)  b \slurEnd:1 \slurBegin:1 b b b \slurEnd:1 \bar 
+   (* meas. 3 *)  \crescBegin b \crescEnd b \dimBegin b \dimEnd b \bar 
+   (* meas. 4 *)  b b b b \bar 
+   (* meas. 5 *)  b b2 b1 b3 \bar 
+   (* meas. 6 *)  b1 b b b \bar 
+   (* meas. 7 *)  b b b b \bar 
+   (* meas. 8 *)  b b b b \bar 
+   (* meas. 9 *)  b f2 b1 f2 \bar 
+   (* meas. 10 *)  b1 b b b ]
+ }

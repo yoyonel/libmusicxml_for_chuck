@@ -1,0 +1,12 @@
+(*
+  gmn code converted from '09l-PickupMeasure-SecondVoiceMessup.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \composer<"Voice 2 should start at 2nd beat of first full measure", dy=4hs> 
+   (* meas. 1 *)  c2 \bar 
+   (* meas. 2 *)  c a1 f c2 ]
+, [ \staff<1> 
+   (* meas. 1 *)  empty \bar 
+   (* meas. 2 *)  empty c empty/2 ]
+ }

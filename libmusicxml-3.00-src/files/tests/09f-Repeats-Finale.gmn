@@ -1,0 +1,17 @@
+(*
+  gmn code converted from '09f-Repeats-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Finale Repeat test"> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"MusicXML Part", dx=-26hs, dy=-5hs> \systemFormat<"", dx=26hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> _/1 \bar 
+   (* meas. 2 *)  \volta<"1", "1.">( _) \repeatEnd 
+   (* meas. 3 *)  \volta<"2", "2.", format="|-">( _) \bar 
+   (* meas. 4 *)  _ 
+   (* meas. 5 *)  \repeatBegin _ \repeatEnd 
+   (* meas. 6 *)  _ \bar 
+   (* meas. 7 *)  \volta<"1", "1.">( _) \repeatEnd 
+   (* meas. 8 *)  \repeatBegin _ \bar 
+   (* meas. 9 *)  _ \repeatEnd 
+   (* meas. 10 *)  _ ]
+ }

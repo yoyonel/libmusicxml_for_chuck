@@ -1,0 +1,16 @@
+(*
+  gmn code converted from '14a-MultistaffClefDynamics-Finale.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> \title<"Piano staff with dynamics and one-staff clef changes"> \composer<"Reinhold Kainhofer", dy=4hs> \instr<"Piano", dx=-10hs, dy=-5hs> \systemFormat<"", dx=10hs> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"g2"> \intens<"ffff"> \stemsDown c2 b1 \stemsUp a \intens<"p"> g \bar 
+   (* meas. 2 *)  \key<2> a \stemsDown b c#2 d \bar 
+   (* meas. 3 *)  \clef<"c2"> d c# b1 a \bar 
+   (* meas. 4 *)  _/1 ]
+, [ \staff<2> 
+   (* meas. 1 *)  \key<0> \meter<"C", autoBarlines="off"> \clef<"f4"> \intens<"ffff"> \crescBegin \stemsUp a-1 b \crescEnd c0 \stemsDown d \bar 
+   (* meas. 2 *)  \key<2> \clef<"g2"> \stemsUp f# g a b \bar 
+   (* meas. 3 *)  a-1 b c#0 d \bar 
+   (* meas. 4 *)  _/1 ]
+ }

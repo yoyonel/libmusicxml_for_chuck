@@ -1,0 +1,9 @@
+(*
+  gmn code converted from '00l-Basics-Tie-PJB.xml'
+  using libmusicxml v.2.1.0
+  and the embedded xml2guido converter v.2.0.0
+*)
+{ [ \staff<1> 
+   (* meas. 1 *)  \key<0> \meter<"4/4", autoBarlines="off"> \clef<"g2"> \tieBegin f/1 \bar 
+   (* meas. 2 *)  f \tieEnd ]
+ }

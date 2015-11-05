@@ -1,4 +1,5 @@
-![GP6](http://www.franckgraziano.com/wp-content/uploads/2012/11/guitar_pro_icon.png){:height="128px" width="128px"} => ![Sheet-MusicXML](http://libmusicxml.sourceforge.net/imgs/scorel1.gif) => ![Chuck](https://upload.wikimedia.org/wikipedia/commons/6/6a/ChucK_logo2.jpg)
+<img src="http://www.franckgraziano.com/wp-content/uploads/2012/11/guitar_pro_icon.png" alt="alt text" height="128">
+=> ![Sheet-MusicXML](http://libmusicxml.sourceforge.net/imgs/scorel1.gif) => <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/ChucK_logo2.jpg" alt="alt text" height="128">
 # lib **XMLMusic** pour export vers **Chuck**
 
 Tweak de la lib MusicXml pour un export vers ChucK.

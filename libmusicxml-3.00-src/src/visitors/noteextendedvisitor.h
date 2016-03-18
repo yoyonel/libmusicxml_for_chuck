@@ -35,8 +35,7 @@
 
 #include "notevisitor.h"
 
-namespace MusicXML2
-{
+namespace MusicXML2 {
 
 /*!
 \addtogroup visitors
@@ -46,37 +45,29 @@ namespace MusicXML2
 /*!
 \brief A note visitor.
 */
-class EXP noteextendedvisitor :
-        public notevisitor,
-        public visitor<S_fret>,
-        public visitor<S_string>,
-        public visitor<S_string_mute>
-{
+class EXP noteextendedvisitor : public notevisitor,
+                                public visitor<S_fret>,
+                                public visitor<S_string>,
+                                public visitor<S_string_mute> {
+ public:
+  int getFret() const { return fFret; }
+  int getString() const { return fString; }
+  int getString_mute() const { return fString_mute; }
 
-public:
+ protected:
+  virtual void visitStart(S_fret& elt) { fFret = int(*elt); }
+  virtual void visitStart(S_string& elt) { fString = int(*elt); }
+  virtual void visitStart(S_string_mute& elt) { fString_mute = int(*elt); }
 
-    int        getFret() const { return fFret; }
-    int        getString() const { return fString; }
-    int        getString_mute() const { return fString_mute; }
-
-protected:
-
-    virtual void visitStart( S_fret& elt ) { fFret = int(*elt); }
-    virtual void visitStart( S_string& elt ) { fString = int(*elt); }
-    virtual void visitStart( S_string_mute& elt ) { fString_mute = int(*elt); }
-
-private:
-
-    int        fFret;
-    int        fString;
-    int        fString_mute;
-
+ private:
+  int fFret;
+  int fString;
+  int fString_mute;
 };
 
-EXP std::ostream& operator<< (std::ostream& os, const noteextendedvisitor& elt);
+EXP std::ostream& operator<<(std::ostream& os, const noteextendedvisitor& elt);
 
 /*! @} */
-
 }
 
-#endif // NOTEEXTENDEDVISITOR_H
+#endif  // NOTEEXTENDEDVISITOR_H

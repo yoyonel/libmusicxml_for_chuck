@@ -149,6 +149,7 @@ void midicontextvisitor::playScoreInstrument(const scoreInstrument& instr) {
 }
 
 //________________________________________________________________________
+// TODO: modification ici pour prendre en compte les frets, strings, ...
 // void midicontextvisitor::playNote (const notevisitor& note)
 void midicontextvisitor::playNote(const noteextendedvisitor& note) {
   notevisitor::type t = note.getType();
@@ -188,11 +189,13 @@ void midicontextvisitor::playNote(const noteextendedvisitor& note) {
       dur = fTPQ / 6;          // have no duration - set to an arbitrary value
       date -= dur;             // and play in advance
       if (date < 0) date = 0;  // check for negative dates
+      // TODO: modification ici pour prendre en compte les frets, strings, ...
       // fMidiWriter->newNote(date, chan, note.getMidiPitch(), vel, dur);
       fMidiWriter->newNote(date, chan, note.getMidiPitch(), vel, dur,
                            note.getFret(), note.getString(),
                            note.getString_mute());
     } else if (tie == StartStop::undefined) {
+      // TODO: modification ici pour prendre en compte les frets, strings, ...
       // fMidiWriter->newNote(date, chan, note.getMidiPitch(), vel, dur);
       fMidiWriter->newNote(date, chan, note.getMidiPitch(), vel, dur,
                            note.getFret(), note.getString(),
@@ -202,6 +205,7 @@ void midicontextvisitor::playNote(const noteextendedvisitor& note) {
       return;
     } else if (tie == StartStop::stop) {
       dur += fPendingDuration;
+      // TODO: modification ici pour prendre en compte les frets, strings, ...
       // fMidiWriter->newNote(date, chan, note.getMidiPitch(), vel, dur);
       fMidiWriter->newNote(date, chan, note.getMidiPitch(), vel, dur,
                            note.getFret(), note.getString(),

@@ -61,7 +61,7 @@ class EXP noteextendedvisitor : public notevisitor,
 
  private:
   int fFret;
-  int fString;
+  int fString; 
   int fString_mute;
 };
 

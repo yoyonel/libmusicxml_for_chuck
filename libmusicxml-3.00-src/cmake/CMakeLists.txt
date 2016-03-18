@@ -8,7 +8,7 @@ if (CMAKE_CONFIGURATION_TYPES)
 endif ()
 
 #######################################
-# versions management
+# versions managementl
 set(VERSION 3.00)
 set(STRVERS "v.3.00")
 set(SSTRVERS "3.00")
